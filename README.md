@@ -25,6 +25,26 @@ behaviours rather than prescribed implementations:
 | Delivery | Make the list endpoint return a slim payload; compress large responses and cache the immutable asset route correctly. | 08 |
 | Testing | Add meaningful tests of your own, including one failure path. | 09 |
 
+## Step 1 — Create your private submission repository
+
+Do this once, before writing any code.
+
+1. Open the starter repository:
+   `https://github.com/dondonMD/northwind-fulfilment-gateway-starter`
+2. Click **Use this template** and then **Create a new repository**.
+3. Set **Owner** to your own GitHub account.
+4. Name the repository exactly: `northwind-fulfilment-YOUR-GITHUB-USERNAME`.
+   For example, GitHub user `jane-smith` creates
+   `northwind-fulfilment-jane-smith`.
+5. Select **Private** visibility, then click **Create repository from template**.
+6. In the new repository, open **Settings** → **Collaborators** → **Add people**.
+   Invite `dondonMD` and grant write access. Accept any GitHub confirmation.
+7. Clone **your new private repository** to your computer. Do not work directly
+   in the public starter repository.
+
+Your repository must remain private. Your instructor must have collaborator
+access before the deadline, otherwise the submission cannot be graded.
+
 ## Before you start
 
 You need Python 3.12 and Git. Work only in your assigned repository. From the
@@ -73,7 +93,7 @@ Before the deadline, you must:
 4. Make at least three meaningful commits: design/tests, core implementation,
    then hardening/performance.
 5. Confirm the latest GitHub Actions run is green, then submit your repository
-   URL and final commit SHA as instructed.
+   URL and final commit SHA through the course submission channel.
 
 Do not submit screenshots in place of code. In `DECISIONS.md`, record the
 command, input size, elapsed time, and conclusion from one measurement. That
@@ -130,3 +150,10 @@ documented boundaries, but preserve the published contract.
 **My CI is red but local tests pass.** Use the CI error log, recreate a clean
 virtual environment, then push a fix. Ask for help with the error and command,
 not a screenshot alone.
+
+**How do I submit?** Push your final code, confirm the latest Actions run is
+green, then submit your private repository URL and final commit SHA. Do not
+email ZIP files or screenshots.
+
+**Why must I invite `dondonMD`?** The repository is private. Your instructor
+needs collaborator access to view the code, run final tests, and grade it.
