@@ -81,3 +81,22 @@ Keep the repository URL, final SHA, public CI outcome, private automated score
 out of 70, the three review scores out of 30, and short feedback. Grade the
 recorded final SHA only, not a later correction. This gives you an audit trail
 for any mark query.
+
+## Free-plan workflow (no Classroom 50 required)
+
+You do not need an organisation, GitHub Education, or a paid plan to run this
+assessment. Make the starter repository **public** and mark it as a **template
+repository**. Each student creates their own **private** repository from the
+template and invites the instructor (`dondonMD`) as a collaborator.
+
+Give students one template URL and require this repository name:
+`northwind-fulfilment-<github-username>`. They must choose private visibility
+and invite the instructor with write access immediately after creation. The
+student owns the repository, so their GitHub Free account supplies its Actions
+allowance; the provided workflow runs automatically whenever they push.
+
+This does not provision repositories from a roster automatically. GitHub's
+free plan has no native replacement for that feature. It avoids creating
+repositories one by one, keeps submissions private, and costs nothing. Collect
+the private repository URL and final commit SHA through your LMS or a simple
+Google Form at the deadline.
